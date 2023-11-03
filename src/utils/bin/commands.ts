@@ -71,10 +71,9 @@ export const linkedin = async (args: string[]): Promise<string> => {
   return 'Opening linkedin...';
 };
 // live webchat
-export const webchat = async (args: string[]): Promise<string> => {
+export const webchat = async (args?: string[]): Promise<string> => {
   window.open('https://webchat.kiwichat.eu.org/', '_blank');
-
-  return 'Opening live webchat...';
+  return `Opening WebChat `;
 };
 //Support WordPress Plugin KiwiChat
 export const webchat = async (args: string[]): Promise<string> => {
