@@ -142,22 +142,26 @@ export const sudo = async (args?: string[]): Promise<string> => {
 export const kiwichat = async (args: string[]): Promise<string> => {
   return `KiwiChat NextClient WordPress plugin 
   
-Description            How to use KiwiChat… Finally there is an IRC plugin for WordPress that works! 
+    Description        How to use KiwiChat… Finally there is an IRC plugin for WordPress that works! 
                        KiwiChat is an online chat client, your IRC client based on kiwiirc Add your networks. 
-		       Join your channels. To use this plugin:
+					   Join your channels. To use this plugin:
 					   
-		       1 simply download and extract it into your plugins folder
+					   1 simply download and extract it into your plugins folder
                        2 configure your settings in the WordPress dashboard
                        3 then drop the short tag [kiwichat] into your page or post. Instantly your users will be able to stay connected via IRC.
 					   
-Installation           1 upload the kiwichat folder to the /wp-content/plugins/ directory.
+	Installation	   1 upload the kiwichat folder to the /wp-content/plugins/ directory.
                        2 activate the plugin through the Plugins menu in WordPress.
                        3 place [kiwichat] shortcode in your pages or posts.
                        4 you can specify channel for a specific page instead of using the default channel configured with: [kiwichat chan=#WebChat]	
 
-Download	       Development version
-	               <u><a class="text-light-blue dark:text-dark-blue underline" href="https://downloads.wordpress.org/plugin/kiwichat.zip" target="_blank">WordPress</a></u>
-		       `
+	Download		   WordPress Development version <u><a class="text-light-blue dark:text-dark-blue underline" href="https://downloads.wordpress.org/plugin/kiwichat.zip" target="_blank">Download</a></u>
+	
+	Support            <u><a class="text-light-blue dark:text-dark-blue underline" href="https://wordpress.org/support/plugin/kiwichat/" target="_blank">View support forum</a></u>
+	
+	Contributing       Bug reports and pull requests are welcome on  <u><a class="text-light-blue dark:text-dark-blue underline" href="https://github.com/KiwiChat/wp-kiwichat" target="_blank">GitHub</a></u>
+					   `
+
   ;
 };
 
