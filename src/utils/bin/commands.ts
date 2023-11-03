@@ -148,12 +148,14 @@ export const kiwichat = async (args: string[]): Promise<string> => {
 					   
 					   1 simply download and extract it into your plugins folder
                        2 configure your settings in the WordPress dashboard
-                       3 then drop the short tag [kiwichat] into your page or post. Instantly your users will be able to stay connected via IRC.
+                       3 then drop the short tag [kiwichat] into your page or post. 
+					   Instantly your users will be able to stay connected via IRC.
 					   
-	Installation	   1 upload the kiwichat folder to the /wp-content/plugins/ directory.
+	Installation	   1 upload the kiwichat folder to the <a class="text-light-blue dark:text-dark-blue underline"/wp-content/plugins/</a> directory.
                        2 activate the plugin through the Plugins menu in WordPress.
-                       3 place [kiwichat] shortcode in your pages or posts.
-                       4 you can specify channel for a specific page instead of using the default channel configured with: [kiwichat chan=#WebChat]	
+                       3 place <a class="text-light-blue dark:text-dark-blue underline"[kiwichat]</a> shortcode in your pages or posts.
+                       4 you can specify channel for a specific page instead of using the default channel configured with: 
+					   <a class="text-light-blue dark:text-dark-blue underline"[kiwichat chan=#WebChat]	</a>
 
 	Download		   WordPress Development version <u><a class="text-light-blue dark:text-dark-blue underline" href="https://downloads.wordpress.org/plugin/kiwichat.zip" target="_blank">Download</a></u>
 	
