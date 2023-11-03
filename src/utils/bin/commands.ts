@@ -78,7 +78,7 @@ export const webchat = async (args: string[]): Promise<string> => {
 };
 //Support WordPress Plugin KiwiChat
 export const webchat = async (args: string[]): Promise<string> => {
-  window.open(`https://wordpress.org/support/plugin/kiwichat`);
+  window.open(`https://wordpress.org/support/plugin/kiwichat/`);
 
   return 'Opening support wordpress plugin kiwichat...';
 };
