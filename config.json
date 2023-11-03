@@ -4,17 +4,17 @@
   "name": "Oscar",
   "ascii": "liveterm",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "kiwichat",
+    "linkedin": ""
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
-  "ps1_username": "visitor",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "email": "kiwichat@email.com",
+  "ps1_hostname": "kiwichat.eu.org",
+  "ps1_username": "help",
+  "repo": "https://github.com/app-oszkar/LiveTerm",
+  "resume_url": "https://kiwichat.eu.org",
   "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
+    "paypal": "",
+    "patreon": ""
   },
 
   "colors": {
