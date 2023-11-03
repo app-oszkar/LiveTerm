@@ -1,8 +1,8 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/apps-oszkar/LiveTerm/main/README.md",
+  "readmeUrl": "https://raw.githubusercontent.com/KiwiChat/wp-kiwichat/master/readme.txt",
   "title": "KiwiChat",
   "name": "Oscar",
-  "ascii": "liveterm",
+  "ascii": "kiwichat",
   "social": {
     "github": "kiwichat",
     "linkedin": ""
@@ -10,7 +10,7 @@
   "email": "kiwichat@email.com",
   "ps1_hostname": "kiwichat.eu.org",
   "ps1_username": "help",
-  "repo": "https://github.com/app-oszkar/LiveTerm",
+  "repo": "https://github.com/kiwichat/wp-kiwichat",
   "resume_url": "https://kiwichat.eu.org",
   "donate_urls": {
     "paypal": "",
