@@ -162,6 +162,9 @@ export const kiwichat = async (args: string[]): Promise<string> => {
 	Support            <u><a class="text-light-blue dark:text-dark-blue underline" href="https://wordpress.org/support/plugin/kiwichat/" target="_blank">View support forum</a></u>
 	
 	Contributing       Bug reports and pull requests are welcome on  <u><a class="text-light-blue dark:text-dark-blue underline" href="https://github.com/KiwiChat/wp-kiwichat" target="_blank">GitHub</a></u>
+
+                           <p style="color:#00FFFF">Your text here1</p>Text1 
+			   <u style="color:#00FFFF">Your text here2</u>Test2
 					   `
 
   ;
