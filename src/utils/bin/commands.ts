@@ -148,23 +148,20 @@ export const kiwichat = async (args: string[]): Promise<string> => {
 					   
 					   1 simply download and extract it into your plugins folder
                        2 configure your settings in the WordPress dashboard
-                       3 then drop the short tag <u><a class="text-light-green dark:text-dark-green underline" [kiwichat]</a></u> into your page or post. 
+                       3 then drop the short tag <u style="color:#0080FF">[kiwichat]</u> into your page or post. 
 					   Instantly your users will be able to stay connected via IRC.
 					   
-	Installation	   1 upload the kiwichat folder to the <u><a class="text-light-green dark:text-dark-green underline" /wp-content/plugins/</a></u> directory.
+	Installation	   1 upload the kiwichat folder to the <u style="color:#0080FF"> /wp-content/plugins/ </u> directory.
                        2 activate the plugin through the Plugins menu in WordPress.
-                       3 place <u><a class="text-light-green dark:text-dark-green underline" [kiwichat]</a></u> shortcode in your pages or posts.
+                       3 place <u style="color:#0080FF">[kiwichat]</u> shortcode in your pages or posts.
                        4 you can specify channel for a specific page instead of using the default channel configured with: 
-					   <u><a class="text-light-green dark:text-dark-green underline" [kiwichat chan=#WebChat]</a></u>
+					   <u style="color:#0080FF">[kiwichat chan=#WebChat]</u>
 
 	Download		   WordPress Development version <u><a class="text-light-blue dark:text-dark-blue underline" href="https://downloads.wordpress.org/plugin/kiwichat.zip" target="_blank">Download</a></u>
 	
 	Support            <u><a class="text-light-blue dark:text-dark-blue underline" href="https://wordpress.org/support/plugin/kiwichat/" target="_blank">View support forum</a></u>
 	
 	Contributing       Bug reports and pull requests are welcome on  <u><a class="text-light-blue dark:text-dark-blue underline" href="https://github.com/KiwiChat/wp-kiwichat" target="_blank">GitHub</a></u>
-
-                           <p style="color:#00FFFF">Your text here1</p>Text1 
-			   <u style="color:#00FFFF">Your text here2</u>Test2
 					   `
 
   ;
