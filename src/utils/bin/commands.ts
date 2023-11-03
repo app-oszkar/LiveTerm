@@ -18,7 +18,7 @@ export const help = async (args: string[]): Promise<string> => {
 \n${c}\n
 [tab]: trigger completion.
 [ctrl+l]/clear: clear terminal.\n
-Type 'sumfetch' to display summary.
+Type 'kiwichat' to display summary.
 `;
 };
 
@@ -33,6 +33,7 @@ export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am ${config.name}. 
 Welcome to my website!
 More about me:
+'kiwichat' - wordpress plugin.
 'sumfetch' - short summary.
 'resume' - my latest resume.
 'readme' - my github readme.`;
@@ -68,6 +69,12 @@ export const linkedin = async (args: string[]): Promise<string> => {
   window.open(`https://www.linkedin.com/in/${config.social.linkedin}/`);
 
   return 'Opening linkedin...';
+};
+// live webchat
+export const webchat = async (args: string[]): Promise<string> => {
+  window.open(`https://webchat.kiwichat.eu.org/`);
+
+  return 'Opening live webchat...';
 };
 
 // Search
@@ -180,7 +187,7 @@ export const banner = (args?: string[]): string => {
 
                                                                                            
 Type 'help' to see the list of available commands.
-Type 'sumfetch' to display summary.
+Type 'kiwichat' to display summary.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
 `;
 };
