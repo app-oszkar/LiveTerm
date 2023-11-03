@@ -76,6 +76,12 @@ export const webchat = async (args: string[]): Promise<string> => {
 
   return 'Opening live webchat...';
 };
+//Support WordPress Plugin KiwiChat
+export const webchat = async (args: string[]): Promise<string> => {
+  window.open(`https://wordpress.org/support/plugin/kiwichat`);
+
+  return 'Opening support wordpress plugin kiwichat...';
+};
 
 // Search
 export const google = async (args: string[]): Promise<string> => {
@@ -103,6 +109,18 @@ export const echo = async (args: string[]): Promise<string> => {
   return args.join(' ');
 };
 
+export const root = async (args: string[]): Promise<string> => {
+  return args.join(' ');
+};
+
+export const admin = async (args: string[]): Promise<string> => {
+  return args.join(' ');
+};
+
+export const cmd = async (args: string[]): Promise<string> => {
+  return args.join(' ');
+};
+
 export const whoami = async (args: string[]): Promise<string> => {
   return `${config.ps1_username}`;
 };
@@ -113,6 +131,15 @@ bunch
 of
 fake
 directories`;
+};
+
+//permision dennied
+export const chmod = async (args: string[]): Promise<string> => {
+  return `a
+flags -are the additional options users can set.
+permissions -define if the user can read, write, or execute the file. They can be represented using symbolic or octal numbers.
+filename -is the name of the file whose permissions are changed.
+root`;
 };
 
 export const cd = async (args: string[]): Promise<string> => {
