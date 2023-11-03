@@ -158,7 +158,6 @@ Installation           1 upload the kiwichat folder to the /wp-content/plugins/ 
 Download	       Development version
 	               <u><a class="text-light-blue dark:text-dark-blue underline" href="https://downloads.wordpress.org/plugin/kiwichat.zip" target="_blank">WordPress</a></u>
 		       `
-
   ;
 };
 
