@@ -133,15 +133,6 @@ fake
 directories`;
 };
 
-//permision dennied
-export const chmod = async (args: string[]): Promise<string> => {
-  return `a
-flags -are the additional options users can set.
-permissions -define if the user can read, write, or execute the file. They can be represented using symbolic or octal numbers.
-filename -is the name of the file whose permissions are changed.
-root`;
-};
-
 export const cd = async (args: string[]): Promise<string> => {
   return `unfortunately, i cannot afford more directories.
 if you want to help, you can type 'donate'.`;
